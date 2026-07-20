@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Seisha | Journey</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav>
+    <div>SEISHA</div>
+    <div class="menu-btn" onclick="toggleNav()">☰</div>
+  </nav>
+
+  <div id="myNav" class="overlay">
+    <div class="close-btn" onclick="toggleNav()">✕</div>
+    <div class="overlay-content">
+      <a href="#" onclick="toggleNav()">Home</a>
+      <a href="#" onclick="toggleNav()">Profil</a>
+    </div>
+  </div>
+
+  <div class="hero-container">
+    <h1>SEISHA</h1>
+    <p>NENEK LU SALTO</p>
+    
+    <div class="card">
+      <h3>ARC TESTNET</h3>
+      <button class="btn-purple" onclick="connectWallet()">Connect</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
