@@ -9,7 +9,7 @@ body { background: #050505; color: white; overflow-x: hidden; }
   justify-content: center;
   align-items: center;
   padding: 80px 20px;
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('Hero041-potrait.png');
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('seisha-bg.png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
